@@ -323,7 +323,7 @@ body {
 }
 
 .letter.expanded .letter-content {
-    max-height: 2000px;
+    max-height: 10000px;
 }
 
 /* 第三页 - 时间轴 */
