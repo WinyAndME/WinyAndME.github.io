@@ -1,0 +1,164 @@
+# JetBrains IDE 文件
+## 所有 JetBrains IDE 通用的文件
+.idea/
+*.iws
+*.iml
+*.ipr
+
+## 特定 IDE 的文件
+### WebStorm
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/shelf/
+
+### IntelliJ IDEA
+out/
+
+### Visual Studio Code (如果需要)
+.vscode/
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 依赖目录
+## Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+## Bower
+bower_components/
+
+# 构建输出目录
+dist/
+build/
+.next/
+.nuxt/
+
+# 缓存目录
+.cache/
+.temp/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 测试覆盖率目录
+coverage/
+.nyc_output/
+
+# 包管理器特定文件
+## npm
+package-lock.json
+
+## Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+## pnpm
+pnpm-lock.yaml
+.pnpm-store/
+
+# 编辑器/IDE 临时文件
+*.swp
+*.swo
+*~
+~$*
+
+# 特定前端框架的构建/缓存文件
+## Vue
+.vuepress/dist
+
+## Gatsby
+
+public
+
+
+
+## Svelte
+.svelte-kit/
+
+## Astro
+
+astro/
+
+
+## React
+*.log
+
+## Vite
+*.local
+
+# 类型Script
+*.tsbuildinfo
+
+# 浏览器兼容性测试
+.browserlistrc
+
+# 可视化开发工具
+.storybook-out/
+storybook-static/
+
+# 可视化测试
+cypress/screenshots/
+cypress/videos/
+
+# 文档生成器
+docs/.vuepress/dist
+docs/.vitepress/dist
+
+# 临时文件
+tmp/
+temp/
+
+# 配置文件 (如果需要的话)
+config/local.json
+config/development.json
+config/staging.json
+config/production.json
+
+# SSL 证书
+*.pem
+*.crt
+*.key
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
